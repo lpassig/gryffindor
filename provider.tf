@@ -13,7 +13,7 @@ provider "aws" {
   default_tags {
     tags = {
       owner               = "${var.NAME}"
-      project             = "project-gryffindor"
+      project             = "project-${var.NAME}"
       terraform           = "true"
       environment         = "dev"
     }

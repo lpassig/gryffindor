@@ -5,3 +5,4 @@ variable "AWS_REGION" {
 variable "NAME" {    
     default = "gryffindor"
 }
+
