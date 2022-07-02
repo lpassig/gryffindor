@@ -2,7 +2,7 @@ terraform {
   cloud {
     organization = "propassig"
     workspaces {
-      name = "Griffindor_Azure_LandingZone"
+      name = "AWS_Griffindor_LandingZone"
     }
   }
   required_providers {
